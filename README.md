@@ -80,7 +80,7 @@ Permanently forces "Above 4G Decoding" and locks critical settings (like UEFI-on
 Allows you to flash it safely using the built-in Q-Flash tool without bricking your board.
 
 ⚠️ The Golden Rule / Big Trap (Read Before Doing Anything)
-Because of how the X99 firmware handles memory mapping, it can map a big GPU into memory, but it cannot automatically "unmap" it if you move things around.
+Because of how the X99 firmware handles memory mapping, it can technically map a big GPU into memory, but it cannot automatically "unmap" it if you move things around like it's supposed to do.
 
 The Problem: If you install this BIOS, boot up, and later decide to move your Tesla to a different slot, add another card, or swap slots, your system will crash or get stuck in a reboot loop. The motherboard will still look for the old memory address while trying to create a new one, causing a conflict.
 
