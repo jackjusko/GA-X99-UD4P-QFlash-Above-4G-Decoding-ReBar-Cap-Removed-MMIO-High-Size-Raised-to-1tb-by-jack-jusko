@@ -61,7 +61,7 @@ Pass: Device Manager → Resources → Large Memory (or nvidia-smi). If you late
 
 
 
-FULL GUIDE:
+##FULL GUIDE, EASY TO FOLLOW:
 This text describes a custom-modified BIOS update for an older motherboard (the Gigabyte GA-X99-UD4P) designed to solve a very specific modern problem: getting heavy-duty workstation or AI graphics cards—like NVIDIA Teslas or large Quadros—to work properly.
 
 Here is a plain-English translation of what this means, why it’s necessary, and a step-by-step tutorial on how to install and use it safely.
