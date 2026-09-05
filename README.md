@@ -1,6 +1,7 @@
 # GA-X99-UD4P QFlash Above 4G Decoding, ReBar Cap Removed, MMIO High Size Raised to 1tb for the GA-X99-UD4P Rev 1.0 motherboard. 
 ## I spent like 40 straight hours on this so throw the repo a star if it helps you, it'll make me happy.
 
+Backup filestore and guide: https://archive.org/details/x-99-ud-4-p.-23c
 GA-X99-UD4P rev 1.0 BIOS F23c, patched so high-BAR GPUs (Teslas, big Quadros, etc.) can get 64-bit MMIO.
 
 File: X99UD4P.23c Size: 16,777,216 bytes SHA256: c80eb675e55d84415094abc2445af1ab1787ea6f1269fb7dfa4469a57e1bb648
