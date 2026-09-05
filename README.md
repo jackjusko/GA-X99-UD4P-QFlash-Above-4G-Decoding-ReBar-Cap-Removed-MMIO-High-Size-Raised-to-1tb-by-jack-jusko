@@ -28,7 +28,7 @@ WARNING — address space: This image will assign huge 64-bit BARs into the Abov
 
 It breaks when the PCI tree changes: you move a high-BAR GPU to a different slot, pull one, or swap slots. Each slot is a different PCI path. The old path’s BAR range stays reserved, and the new path asks for another. The map then overlaps or walks past what the chipset can decode: hang, failed PCI assign, reboot loop.
 
-Fix: pull the large-BAR cards, CMOS clear, boot with a small GOP display only (after resetting cmos i could boot with just an rx 470 fine). That rebuilds a clean map. Reflash this image if needed, then put the cards back. Do not keep power-cycling with the big cards still in the new layout — that does not free the old ranges.
+Fix: pull the large-BAR cards, CMOS clear, boot with a small GOP display only (after resetting cmos i could boot with just an rx 470 fine). That rebuilds a clean map. Reflash this image, then put the cards back - Pick the full flash option. Do not keep power-cycling with the big cards still in the new layout — that does not free the old ranges.
 
 Q-Flash:
 
